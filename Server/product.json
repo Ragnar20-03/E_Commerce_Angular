@@ -1,0 +1,45 @@
+[
+      {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99,
+        "description": "Powerful laptop with high-performance specifications.",
+        "category": "Electronics",
+        "imageUrl": "https://example.com/laptop.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 499.99,
+        "description": "Latest smartphone with advanced features.",
+        "category": "Electronics",
+        "imageUrl": "https://example.com/smartphone.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Coffee Maker",
+        "price": 79.99,
+        "description": "Modern coffee maker for brewing your favorite coffee at home.",
+        "category": "Appliances",
+        "imageUrl": "https://example.com/coffee-maker.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Running Shoes",
+        "price": 129.99,
+        "description": "Comfortable running shoes for your active lifestyle.",
+        "category": "Fashion",
+        "imageUrl": "https://example.com/running-shoes.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Backpack",
+        "price": 49.99,
+        "description": "Durable backpack for everyday use.",
+        "category": "Fashion",
+        "imageUrl": "https://example.com/backpack.jpg"
+      }
+
+    ]
+
+  
