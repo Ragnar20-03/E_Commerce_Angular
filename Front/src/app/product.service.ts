@@ -12,4 +12,7 @@ export class ProductService {
   {
     return this.hobj.get("http://localhost:5100/api/products")
   }
+  getProductsById(pid : any){
+    return this.hobj.get(`http://localhost:5100/api/products/${pid}`)
+  }
 }

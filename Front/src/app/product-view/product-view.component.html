@@ -1,1 +1,9 @@
-<h1> Details of the product {{this.productId}} </h1>
+<h1> Details of the product </h1>
+<div class="card">
+    <h2>Name : {{productEvent.name}}</h2>
+    <h2>Price : {{productEvent.price}} </h2>
+   <div class="card md-5">
+    <img src={{productEvent.imageUrl}} alt="">
+   </div>
+   <button (click)="onAddCart(productEvent.id)">Add To CArt</button>
+</div>
