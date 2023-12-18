@@ -1,0 +1,10 @@
+<h1>Products </h1>
+<li *ngFor="let p of products"> 
+    <h1>
+        id : {{p.pid}} <br>
+        Name : {{p.product_name}}
+        <h2>Price : {{p.price}}</h2>
+        <p>Discreption : {{p.description}}</p>
+        <button class="btn btn-primary" (click)="onView(p.pid)"> View</button>
+    </h1>
+</li>

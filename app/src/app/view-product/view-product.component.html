@@ -1,0 +1,10 @@
+<h1>Detail view of product</h1>
+<h1>
+    Name  : {{productDetail[0].product_name  }}
+</h1>
+   <h1> description : {{productDetail[0].description}}</h1>
+    <h1>
+    price : {{productDetail[0].price}}
+
+    </h1>
+    <button class="btn btn-primary mt-3 p-3" (click)="onAddToCart(productDetail[0].pid)">Add Cart</button>

@@ -1,16 +1,14 @@
-const express = require('express')
-const app = express()
-
+const express = require('express');
 const bodyParser = require('body-parser')
-app.use(bodyParser.json())
+const cors = require ('cors')
 
-const api = require('./Routes/api')
+const app  = express()
+const api  = require('./Routes/api')
 app.use('/api' , api)
-
-const cart = require('./Routes/cart')
-app.use('/cart' , cart)
+app.use(bodyParser.json() , cors())
 
 app.listen(5100 , ()=>{
-    console.log("Server started on 5100");
+    console.log("Server Started on port number 5100");
 })
 
+app.get('/'  , (req , res)=>{res.send("Hello From server")})

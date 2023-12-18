@@ -1,0 +1,17 @@
+<br><br>
+<div class="input-group flex-nowrap">
+    <span class="input-group-text" id="addon-wrapping"></span>
+    <label for=""> Username</label>
+    <input [(ngModel)]="loginData.username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+  </div> <br><br>
+  <div class="input-group flex-nowrap">
+    <span class="input-group-text" id="addon-wrapping"></span>
+    <label for=""> Password</label>
+    <input [(ngModel)]="loginData.password" type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+  </div>  <br><br> <div class="input-group flex-nowrap">
+    <span class="input-group-text" id="addon-wrapping"></span>
+    <label for=""> Email</label>
+    <input [(ngModel)]="loginData.email" type="text" class="form-control" placeholder="Email " aria-label="Username" aria-describedby="addon-wrapping">
+  </div>
+  <br>
+  <button class="btn btn-primary" (click)="onLogin()">Submit</button>
