@@ -142,7 +142,7 @@ router.get('/products/:pid' , async (req , res) => {
     console.log(("inisde Produvt/id" ));
     let conn = await getConnection("product");
 
-    res.status(200).send(await conn.find({pid:parseInt(req.params.pid)}).toArray())   
+    res.status(200).send(await conn.find({pid:parseInt(req.params.pid)}))   
 
 })
 module.exports = router;
